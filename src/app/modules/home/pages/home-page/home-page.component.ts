@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-page.component.css'],
 })
 export class HomePageComponent implements OnInit {
-  constructor() {}
+ //numberPhone: string = "954138326";
+
+  constructor() { }
 
   ngOnInit() {
- /*    this.loadJsFile("assets/js/jquery.min.js");
+    /*    this.loadJsFile("assets/js/jquery.min.js");
     this.loadJsFile("assets/js/jquery-migrate-3.0.1.min.js");
     this.loadJsFile("assets/js/popper.min.js");
     this.loadJsFile("assets/js/bootstrap.min.js");
@@ -20,10 +22,12 @@ export class HomePageComponent implements OnInit {
     this.loadJsFile("assets/js/jquery.magnific-popup.min.js");
     this.loadJsFile("assets/js/jquery.animateNumber.min.js");
     this.loadJsFile("assets/js/scrollax.min.js"); */
-    this.loadJsFile("assets/js/main.js");
+    this.loadJsFile('assets/js/main.js');
+
+    //this.numberPhone = '954138326';
   }
 
-  public loadJsFile(url:any) {
+  public loadJsFile(url: any) {
     let node = document.createElement('script');
     node.src = url;
     node.type = 'text/javascript';
