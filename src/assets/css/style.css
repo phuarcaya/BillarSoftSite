@@ -5092,6 +5092,10 @@ input[type="button"].btn-block {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
+
+  .navbar-brand img {
+    width: 150px !important;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -13381,7 +13385,7 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 27px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -14665,4 +14669,13 @@ html {
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
+}
+
+.navbar-brand {
+  margin-bottom: -40px;
+  margin-top: -40px;
+}
+
+.navbar-brand img {
+  width: 80px;
 }

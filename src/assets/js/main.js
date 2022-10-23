@@ -14,8 +14,12 @@
   $(window).scroll(function () {
     if ($(window).scrollTop() > 200) {
       $("#back-to-top").addClass('to-top');
+      $('.hl-wt').hide();
+      $('.hl-ct').show();
     } else {
       $("#back-to-top").removeClass('to-top');
+      $('.hl-ct').hide();
+      $('.hl-wt').show();
     }
   });
 
