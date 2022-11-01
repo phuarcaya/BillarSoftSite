@@ -5092,6 +5092,10 @@ input[type="button"].btn-block {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
+
+  .navbar-brand img {
+    width: 150px !important;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -13381,7 +13385,7 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 27px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -14609,4 +14613,69 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+.back-to-top {
+  border-radius: 50%;
+  bottom: 25px;
+  color: #fff;
+  display: block;
+  font-size: 40px;
+  height: 58px;
+  position: fixed;
+  left: -200px;
+  text-align: center;
+  transition: all 800ms ease 0s;
+  visibility: hidden;
+  width: 60px;
+  line-height: 50px;
+  z-index: 500;
+}
+
+.back-to-top {
+  background: #24A148;
+}
+
+.back-to-top:focus,
+.back-to-top:hover {
+  color: #fff;
+  transition: all 800ms ease 0s;
+}
+
+.back-to-top.to-top {
+  left: 20px;
+  transition: all 800ms ease 0s;
+  visibility: visible;
+}
+
+.chat-whatsapp.right {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  z-index: 610;
+}
+
+.chat-whatsapp a {
+  float: right;
+  cursor: pointer;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background: #65bc54 url(../images/whatsap-chat.png) no-repeat center center;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+
+.navbar-brand {
+  margin-bottom: -40px;
+  margin-top: -40px;
+}
+
+.navbar-brand img {
+  width: 80px;
 }
