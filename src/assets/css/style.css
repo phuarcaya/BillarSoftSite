@@ -11754,7 +11754,7 @@ h5,
 .h4,
 .h5 {
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.8);
+  color: #053052;
   font-weight: 400;
 }
 
@@ -11777,7 +11777,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: #053052 !important;
     position: relative;
     top: 0;
   }
@@ -12044,7 +12044,7 @@ h5,
   bottom: 0;
   content: '';
   opacity: .5;
-  background: #21243d;
+  background: #053052;
   height: 850px;
 }
 
@@ -12163,7 +12163,7 @@ h5,
 
 .search-wrap-1 {
   position: relative;
-  background: #21243d;
+  background: #053052;
   -webkit-box-shadow: 0px 75px 94px -66px rgba(0, 0, 0, 0.66);
   -moz-box-shadow: 0px 75px 94px -66px rgba(0, 0, 0, 0.66);
   box-shadow: 0px 75px 94px -66px rgba(0, 0, 0, 0.66);
@@ -12502,7 +12502,7 @@ h5,
 }
 
 .bg-darken {
-  background: #0f101c;
+  background: #053052;
 }
 
 .btn {
@@ -12523,15 +12523,14 @@ h5,
 }
 
 .btn.btn-primary {
-  background: #24A148 !important;
-  border: 1px solid #24A148 !important;
-  color: #fff !important;
+  background: #24A148;
+  border: 1px solid #24A148 ;
+  color: #fff;
 }
 
 .btn.btn-primary:hover {
-  border: 1px solid #24A148;
-  background: transparent;
-  color: #24A148;
+  border: 1px solid #008d4c;
+  background: #008d4c;
 }
 
 .btn.btn-primary.btn-outline-primary {
@@ -13374,7 +13373,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   padding: 7em 0;
-  background: #0f101c;
+  background: #053052;
 }
 
 .ftco-footer .ftco-footer-logo {
@@ -14672,8 +14671,8 @@ html {
 }
 
 .navbar-brand {
-  margin-bottom: -40px;
-  margin-top: -40px;
+  /* margin-bottom: -40px;
+  margin-top: -40px; */
 }
 
 .navbar-brand img {
