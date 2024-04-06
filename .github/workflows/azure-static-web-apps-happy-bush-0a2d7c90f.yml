@@ -17,8 +17,8 @@ jobs:
     steps:
       - name: Setup Node.js
         uses: actions/setup-node@v3
-        with: 
-          node-version: '18'
+        with:
+          node-version: '20.11.1'
       - uses: actions/checkout@v2
         with:
           submodules: true
