@@ -6,16 +6,14 @@
           <h2 class="ftco-heading-2">Billarsoft</h2>
           <p>Software para administrar Salas de Billar, Bar y Restaurantes.</p>
           <ul class="ftco-footer-social list-unstyled mt-3">
-            <li class="ftco-animate"><a href="https://www.facebook.com/billarsoft" target="_blank"
-                class="btn-go-to-facebook"><span class="fa fa-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="https://www.facebook.com/billarsoft" target="_blank"
-                class="btn-go-to-instagram"><span class="fa fa-instagram"></span></a></li>
-            <li class="ftco-animate"><a href="https://www.youtube.com/playlist?list=PLRZbgFkIzQfRF-B4RMe-NAnnu0CWxWF8k"
-                target="_blank" class="btn-view-presentacion" title="Conocer más..."><span
-                  class="fa fa-youtube-play"></span></a></li>
-            <li class="ftco-animate"><a href="https://www.youtube.com/playlist?list=PLRZbgFkIzQfSD4AuN8rHDLxiKOqTFPSIb"
-                target="_blank" class="btn-view-demo" title="Ver tutoriales"><span
-                  class="fa fa-youtube-play"></span></a></li>
+            <li class="ftco-animate"><a href="{{urlFacebookPage}}" target="_blank" class="btn-go-to-facebook"><span
+                  class="fa fa-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="{{urlInstagramPage}}" target="_blank" class="btn-go-to-instagram"><span
+                  class="fa fa-instagram"></span></a></li>
+            <li class="ftco-animate"><a href="{{urlVideoAbout}}" target="_blank" class="btn-view-presentacion"
+                title="Conocer más..."><span class="fa fa-youtube-play"></span></a></li>
+            <li class="ftco-animate"><a href="{{urlVideoTutorials}}" target="_blank" class="btn-view-demo"
+                title="Ver tutoriales"><span class="fa fa-youtube-play"></span></a></li>
           </ul>
         </div>
       </div>
@@ -49,9 +47,9 @@
           <div class="block-23 mb-3">
             <ul>
               <li><span class="icon fa fa-map"></span><span class="text">Santa Anita, Lima, Perú.</span></li>
-              <li><span class="icon fa fa-phone"></span><span class="text">(+51) 954 138 326</span></li>
-              <li><a href="mailto:devnet.ph.mkt@gmail.com"><span class="icon fa fa-envelope pr-4"></span><span
-                    class="text">devnet.ph.mkt&#64;gmail.com</span></a></li>
+              <li><span class="icon fa fa-phone"></span><span class="text">{{phoneNumber}}</span></li>
+              <li><a href="mailto:{{emailContact}}"><span class="icon fa fa-envelope pr-4"></span><span
+                    class="text">{{emailContact}}</span></a></li>
             </ul>
           </div>
         </div>
@@ -71,12 +69,12 @@
 <div id="ftco-loader" class="show fullscreen">
   <svg class="circular" width="48px" height="48px">
     <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#24A148" />
   </svg>
 </div>
 
 <a href="#." class="back-to-top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
 <div class="chat-whatsapp right">
-  <a onclick="window.open('https://wa.me/51954138326')" class="btn-send-whatsapp" title="chatear"></a>
+  <a href="{{urlWhatsApp}}" target="_blank" class="btn-send-whatsapp" title="chatear"></a>
 </div>

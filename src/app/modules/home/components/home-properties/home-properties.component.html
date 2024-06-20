@@ -22,8 +22,9 @@
             requiera.</p>
           <p>Las actualizaciones y mejoras del sistema de acuerdo a su necesidad.</p>
           <p>
-            <a href="https://www.youtube.com/playlist?list=PLRZbgFkIzQfRF-B4RMe-NAnnu0CWxWF8k"
-              class="btn btn-primary py-3 px-4 btn-view-presentacion" target="_blank"><i class="fa fa-youtube-play"></i>
+            <a href="{{urlVideoAbout}}"
+              class="btn btn-primary py-3 px-4 btn-view-presentacion" target="_blank"><i
+                class="fa fa-lg fa-youtube-play"></i>
               Conocer más...</a>
           </p>
         </div>
@@ -135,73 +136,80 @@
       <div class="col-md-7 text-center heading-section ftco-animate">
         <span class="subheading">Funciones del Software</span>
         <h2 class="mb-3">¿Qué funciones contiene?</h2>
+        <p>Las funciones principales del software de gestión para billares se estructuran de la siguiente manera.</p>
       </div>
     </div>
     <div class="row ftco-animate">
-      <div class="col-md-4">
-        <div class="text">
-          <p class="mb-4"><b>En la administración de mesas tiene como funciones principales:</b></p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-transparent">Iniciar el tiempo de alquiler de mesas con tiempo limitado o
-              libre</li>
-            <li class="list-group-item bg-transparent">Modificar la fecha y/o hora de inicio de alquiler</li>
-            <li class="list-group-item bg-transparent">Agregar consumo de productos a cada mesa</li>
-            <li class="list-group-item bg-transparent">Finalizar la hora de alquiler y realizar la cobranza</li>
-            <li class="list-group-item bg-transparent">Transferir o cambiar de mesa a otra incluyendo consumo de
-              productos</li>
-            <li class="list-group-item bg-transparent">Agregar comentarios o recordatorios</li>
-            <li class="list-group-item bg-transparent">Anular la mesa y/o hora iniciada por alquiler</li>
-            <li class="list-group-item bg-transparent">Imprimir tickets en diferentes medidas</li>
-            <li class="list-group-item bg-transparent">Cambiar de vista en cuadrícula o, en forma de lista</li>
-            <li class="list-group-item bg-transparent">Extender el tiempo de alquiler si se ha iniciado con tiempo
-              limitado</li>
-            <li class="list-group-item bg-transparent">Configurar precio de alquiler por mesa o según el horario</li>
-          </ul>
-          <p></p>
-
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="text">
-          <p class="mb-4"><b>Adicionalmente al alquiler de mesas puede realizar estas operaciones:</b></p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-transparent">Controlar el inventario o stock de productos</li>
-            <li class="list-group-item bg-transparent">Ingresar la compra de productos</li>
-            <li class="list-group-item bg-transparent">Realizar la venta de productos (ventas directas)</li>
-            <li class="list-group-item bg-transparent">Consultar el movimiento de productos</li>
-          </ul>
-
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-transparent">Ingresar dinero a caja (aportes, saldo inicial, etc.)</li>
-            <li class="list-group-item bg-transparent">Retirar dinero de caja (pago de servicio, personal, etc.)</li>
-            <li class="list-group-item bg-transparent">Ver reporte de movimientos de dinero en caja</li>
-            <li class="list-group-item bg-transparent">Ver eporte de alquileres y ventas por día, mes, año o rango de
-              fechas</li>
-            <li class="list-group-item bg-transparent">Ver gráficos estadísticos del rendimiento de ganancias. Donde
-              puede ver, el dinero ingresado, retirado y saldo</li>
-            <li class="list-group-item bg-transparent">Ver resumen de alquileres y ventas por dia y meses del año</li>
-            <li class="list-group-item bg-transparent">Ver resumen de ganancias por cada mesa</li>
-            <li class="list-group-item bg-transparent">Ver resumen de ventas por tipo de producto</li>
-          </ul>
-          <p></p>
-
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="text">
-          <p class="mb-4"><b>En configuraciones puede personalizar lo siguiente:</b></p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-transparent">Crear y configurar clientes o socios del negocio</li>
-            <li class="list-group-item bg-transparent">Crear y configurar mesas; billar, pool, poker, consumo, etc.</li>
-            <li class="list-group-item bg-transparent">Clasificar las mesas con íconos para identificar facilmente</li>
-            <li class="list-group-item bg-transparent">Crear catálogo de productos con sus respectivos precios</li>
-            <li class="list-group-item bg-transparent">Configurar el nivel de acceso a los usuarios del sistema;
-              Conceder y/o restringir acceso a ciertas funciones</li>
-          </ul>
-          <p></p>
-
+      <div class="col-md-12">
+        <div class="card-group">
+          <div class="card bg-transparent border-0">
+            <div class="card-body">
+              <h5 class="card-title">Control de Alquileres</h5>
+              <p class="card-text">Control de alquiler de mesas y cuentas individuales.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">Alquiler de mesas por tiempo limitado o libre</li>
+                <li class="list-group-item bg-transparent">Control de cuentas individuales o por cliente</li>
+                <li class="list-group-item bg-transparent">Agregar consumo de productos a cada mesa</li>
+                <li class="list-group-item bg-transparent">Cambiar de mesa a otra incluyendo sus consumos</li>
+                <li class="list-group-item bg-transparent">Corte de tiempo y reinicio de alquiler de mesa</li>
+                <li class="list-group-item bg-transparent">Extender tiempo de alquiler</li>
+                <li class="list-group-item bg-transparent">Anular la mesa y/o hora iniciada</li>
+                <li class="list-group-item bg-transparent">Notificaciones y recordatorios</li>
+                <li class="list-group-item bg-transparent">Finalizar la hora de alquiler y realizar cobranza en
+                  efectivo, transferencia, P.O.S., etc.</li>
+                <li class="list-group-item bg-transparent">Impresión de tickets de alquiler de mesas en diferentes medidas</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">Venta de Productos y Stock</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">Emisión de ventas directas (sin mesa)</li>
+                <li class="list-group-item bg-transparent">Ingreso de productos por compra</li>
+                <li class="list-group-item bg-transparent">Reporte de movimiento de productos (ingreso y salida)</li>
+                <li class="list-group-item bg-transparent">Impresión de tickets de compra y venta</li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tablero de rentabilidad</h5>
+              <p class="card-text">Análisis de ganancias obtenidas por alquiler y venta de productos.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">Estadísticas del rendimiento de ganancias</li>
+                <li class="list-group-item bg-transparent">Alquileres y ventas detalladas por día, mes, año o rango de
+                  fechas</li>
+                <li class="list-group-item bg-transparent">Ganancias por cada mesa</li>
+                <li class="list-group-item bg-transparent">Top de productos y mesas más rentables</li>
+                <li class="list-group-item bg-transparent">Cobranza por método de pago (efectivo, transferencia, etc.)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card bg-transparent border-0">
+            <div class="card-body">
+              <h5 class="card-title">Control de Caja</h5>
+              <p class="card-text">Control y movimiento de dinero en caja.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">Apertura y cierre de caja automático</li>
+                <li class="list-group-item bg-transparent">Cuadre de caja por Usuario y/o Vendedor</li>
+                <li class="list-group-item bg-transparent">Trazabilidad de movimiento de dinero</li>
+                <li class="list-group-item bg-transparent">Impresión de tickets de cierre de caja</li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Configuraciones generales</h5>
+              <p class="card-text">Configuraciones iniciales para poner en funcionamiento el sistema.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">Definir precio de mesas por hora o fracción</li>
+                <li class="list-group-item bg-transparent">Clientes o socios del negocio</li>
+                <li class="list-group-item bg-transparent">Configurar mesas; billar, pool, mesa personal, póker,
+                  consumo, etc.</li>
+                <li class="list-group-item bg-transparent">Catálogo de productos y Stock</li>
+                <li class="list-group-item bg-transparent">Nivel de acceso a los usuarios; Conceder y/o restringir
+                  acceso a ciertas funciones</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -329,19 +337,19 @@
             <div class="icon">
               <span class="fa fa-paper-plane"></span>
             </div>
-            <p><span>Email:</span> <a href="mailto:devnet.ph.mkt@gmail.com">devnet.ph.mkt&#64;gmail.com</a></p>
+            <p><span>Email:</span> <a href="mailto:{{emailContact}}">{{emailContact}}</a></p>
           </div>
           <div class="col-md-4 text-center py-4 border-height">
             <p>Para más información, síguenos en nuestras <span>Redes sociales</span></p>
             <ul class="ftco-footer-social list-unstyled mt-4">
-              <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/billarsoft"
+              <li class="ftco-animate fadeInUp ftco-animated"><a href="{{urlFacebookPage}}"
                   target="_blank" class="btn-go-to-facebook"><span class="fa fa-facebook"
                     style="font-size: 30px;"></span></a></li>
-              <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/billarsoft"
+              <li class="ftco-animate fadeInUp ftco-animated"><a href="{{urlInstagramPage}}"
                   target="_blank" class="btn-go-to-instagram"><span class="fa fa-instagram"
                     style="font-size: 30px;"></span></a></li>
               <li class="ftco-animate fadeInUp ftco-animated"><a
-                  href="https://www.youtube.com/playlist?list=PLRZbgFkIzQfRF-B4RMe-NAnnu0CWxWF8k" target="_blank"
+                  href="{{urlVideoAbout}}" target="_blank"
                   class="btn-view-presentacion"><span class="fa fa-youtube-play" style="font-size: 30px;"></span></a>
               </li>
             </ul>
@@ -351,7 +359,7 @@
             <div class="icon">
               <span class="fa fa-phone"></span>
             </div>
-            <p><span>Celular:</span> (+51) 954 138 326</p>
+            <p><span>Celular:</span> {{phoneNumber}}</p>
           </div>
 
         </div>
